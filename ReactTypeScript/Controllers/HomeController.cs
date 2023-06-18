@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ReactExample.Models;
+using ReactTypeScript.Models;
 using System.Diagnostics;
 
-namespace ReactExample.Controllers
+namespace ReactTypeScript.Controllers
 {
     public class HomeController : Controller
     {

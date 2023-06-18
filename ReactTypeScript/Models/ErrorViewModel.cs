@@ -1,4 +1,4 @@
-namespace ReactExample.Models
+namespace ReactTypeScript.Models
 {
     public class ErrorViewModel
     {
