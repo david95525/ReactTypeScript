@@ -7,11 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="React\index.ts" />
+    <None Remove="Client\components\NavHeader.tsx" />
+    <None Remove="Client\home.tsx" />
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="React\index.ts" />
+    <TypeScriptCompile Include="Client\custom.d.ts" />
+    <TypeScriptCompile Include="Client\components\home.tsx" />
+    <TypeScriptCompile Include="Client\components\navheader.tsx" />
+    <TypeScriptCompile Include="Client\index.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
 </Project>
